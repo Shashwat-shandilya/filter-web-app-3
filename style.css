@@ -1,0 +1,19 @@
+body{
+    background-image: url('doodle.png');
+}
+
+#h1{
+    font-size: 50px;
+}
+
+canvas{
+    animation-name: face;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes face{
+    from{box-shadow: 5px 5px 80px greenyellow;}
+    to{box-shadow: 5px 5px 80px red;}
+}
